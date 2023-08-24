@@ -1,0 +1,395 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url("https://scontent.fblr17-1.fna.fbcdn.net/v/t39.30808-6/300063171_578549067297705_8920490738957565648_n.jpg?_nc_cat=111&cb=99be929b-59f725be&ccb=1-7&_nc_sid=300f58&_nc_ohc=gu238kP1WnoAX8wgDlD&_nc_ht=scontent.fblr17-1.fna&oh=00_AfBsbGOfM762bj7B-IyeuN9NK8f50MkWdnJmuN_yiXukSQ&oe=64DB3405");
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ffcc00;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+    background-color: orange;
+    color: #fff;
+}
+
+.x{
+margin-left: 4px;
+}
+.j{
+text-align:center;}
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+}
+   .baro{
+    background-color:bisque;
+    font-family: fantasy;
+padding-left: 10%;  }
+.h1{
+  font-family: fantasy;
+  color: red;
+
+}
+.h2{
+  font-family:sans-serif;
+  color: royalblue;
+
+}
+
+/* Add this CSS code to create a gap between the image and text */
+.s {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: cursive;
+    text-align: justify;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+}
+
+.s p {
+    flex: 1; /* Allow the paragraph to grow and take available space */
+    margin-right: 20px; /* Add some spacing between text and image */
+}
+
+/* Adjust the figure styles as needed */
+.s figure {
+    flex: 1; /* Allow the figure to grow and take available space */
+    margin: 0; /* Reset margin for the figure */
+    text-align: right; /* Align the image to the right within the figure */
+}
+
+/* Add a margin between the image and text */
+.s img {
+    margin-top: 2px;
+    margin-right: 30%;
+}
+.nav
+{
+  text-decoration: underline;
+  font-family: cursive;
+  background-color: orange;
+  space:0px;
+}
+
+.nav p{
+  margin: 0px;
+  padding: 0px;
+}
+.vd{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: "Helvetica", sans-serif;
+text-align: justify;
+display: flex;
+
+padding-right: 20%;
+}
+.vd p{
+font-style: oblique;
+padding-top: 10px;
+
+}
+.vd img{
+  float: right;
+  width: 50%;
+  justify-content: space-between;
+  height: 300px;
+  padding-top: 0px;
+  margin-left: 10%;
+}
+.vd img{
+
+}
+.head{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: "Helvetica", sans-serif;
+
+}
+.j
+{
+  margin-right:1000px;
+
+
+}
+.but{
+  margin-left: 38px;
+}
+.main{
+  background-color: honeydew;
+}
+button{
+  background-color: aquamarine;
+  font-style: normal;
+  font-size: 15px;
+  height: 30px;
+  color:black;
+  border-radius: 10%;
+  margin-left: 20px;
+}
+.o{
+  display: flex;
+  margin:0px;
+  padding:0px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+.inner{
+  padding-top: 20px;
+  font-style: oblique;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-family: serif;
+  background-color: floralwhite;
+}
+.header{
+  text-align: center;;
+  padding: 1rem;
+  position: relative;
+
+}
+.header:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 1000px;
+  background-color: #2ecc71;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.00rem;
+  font-family: sans-serif;
+
+}
+.skill-box{
+  padding: 1rem;
+  color: block;
+  cursor: pointer;
+
+}
+
+.skill-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-style: oblique;
+
+}
+.skill-title:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 2px 0 0 2px;
+  background-color: #2ecc71;
+}
+.skill-title:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 0 2px 2px 0;
+  background-color: #2ecc71;
+  font-style: oblique;
+}
+
+.img{
+  width: 90px;
+  position: relative;
+  height: 90px;
+  border-radius: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.skill-title h3{
+  color: block;
+  margin-top: 0.5rem;
+  font-style: oblique;
+
+}
+.img:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  border-radius: 45px;
+}
+.skill-icon{
+  width: 50px;
+  z-index: 2;
+
+}
+.outer{
+  background-color: mintcream;
+}
+.pos{
+  margin-left: 20px;
+  text-align: center;
+  background-color: linen;
+}
+/* Footer styles */
+footer {
+  background-color: lightsalmon;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info,
+.social-links,
+.profile-photo {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-info h2,
+.social-links h2 {
+  margin-bottom: 10px;
+}
+
+/* Circular photo styles */
+.circular-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* Social icon styles */
+.social-links a {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Adjust as needed */
